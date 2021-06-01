@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=stylesheet.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+  letter-spacing: 0.03em;
+}
+
+h3 {
+  line-height: 1.6em;
+}
+
+h3, article p {
+  color: #a3a5ae;
+}
+
+h1, h2, h4 {
+  color: #4c4e61;
+}
+/*# sourceMappingURL=stylesheet.css.map */

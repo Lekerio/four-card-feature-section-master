@@ -5,3 +5,19 @@ $mainblue: hsl(212, 86%, 64%);
 $neutraldkblue:hsl(234, 12%, 34%);
 $neutralgrblue:hsl(229, 6%, 66%);
 $neutralgrey:hsl(0, 0%, 98%);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+* {
+    font-family:'Poppins', sans-serif;
+}
+h1,h2 {
+    letter-spacing:0.03em;
+}
+h3 {
+    line-height:1.6em;
+}
+h3, article p {
+    color:$neutralgrblue;
+}
+h1, h2, h4 {
+    color:$neutraldkblue;
+}
