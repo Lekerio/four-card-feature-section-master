@@ -19,15 +19,28 @@ h1, h2, h4 {
   color: #4c4e61;
 }
 
-article div {
+.argument {
   min-width: 350px;
   min-height: 250px;
   padding: 1.5em;
-  -webkit-box-shadow: grey 10px 10px 20px;
-          box-shadow: grey 10px 10px 20px;
+  -webkit-box-shadow: lightgray 2px 20px 20px;
+          box-shadow: lightgray 2px 20px 20px;
+  border-radius: 5px;
 }
 
-footer {
-  display: none;
+.argument {
+  border-top: #45d3d3 solid 5px;
+}
+
+.argument2 {
+  border-top: #ea5353 solid 5px;
+}
+
+.argument3 {
+  border-top: #fcaf4a solid 5px;
+}
+
+.argument4 {
+  border-top: #549ef2 solid 5px;
 }
 /*# sourceMappingURL=stylesheet.css.map */

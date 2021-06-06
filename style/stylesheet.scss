@@ -21,13 +21,23 @@ h3, article p {
 h1, h2, h4 {
     color:$neutraldkblue;
 }
-article div {
+.argument {
     min-width:350px;
     min-height:250px;
     padding:1.5em;
-    box-shadow: grey 10px 10px 20px;
+    box-shadow: lightgray 2px 20px 20px;
+    border-radius:5px;
+}
+.argument {
+    border-top:$maincyan solid 5px;
+}
+.argument2 {
+    border-top:$mainred solid 5px;
+}
+.argument3 {
+    border-top:$mainorange solid 5px;
+}
+.argument4 {
+    border-top:$mainblue solid 5px;
 }
 
-footer {
-    display:none;
-}
