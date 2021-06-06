@@ -21,3 +21,13 @@ h3, article p {
 h1, h2, h4 {
     color:$neutraldkblue;
 }
+article div {
+    min-width:350px;
+    min-height:250px;
+    padding:1.5em;
+    box-shadow: grey 10px 10px 20px;
+}
+
+footer {
+    display:none;
+}
